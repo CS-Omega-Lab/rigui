@@ -1,7 +1,10 @@
-import './Assets/Styles/App.css';
+import React, {Component} from 'react'
 
+import AppContainer from "./Components/AppContainer"
 
-class App extends React.Component {
+import SignIn from "./Views/Auth/SignIn"
+
+class App extends Component {
     constructor(props) {
         super(props);
         // this.func = this.func.bind(this);
@@ -10,8 +13,11 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className="App">
-            </div>
+            <AppContainer>
+                <SignIn>
+
+                </SignIn>
+            </AppContainer>
         );
     }
 }

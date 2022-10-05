@@ -28,7 +28,7 @@ app.whenReady().then(() => {
             contextIsolation: false,
             webSecurity: false
         },
-        icon: 'Assets/img/logo.png'
+        icon: 'Assets/img/logo_horizontal.png'
     })
 
 
