@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-impo
 
-class Auth extends Component {
+class DivCarousel extends Component {
     render() {
         return (
             <div>
@@ -11,4 +10,4 @@ class Auth extends Component {
     }
 }
 
-export default Auth;
+export default DivCarousel;

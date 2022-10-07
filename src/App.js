@@ -1,8 +1,11 @@
 import React, {Component} from 'react'
 
 import AppContainer from "./Components/AppContainer"
+import "./Assets/Styles/App.css"
 
-import SignIn from "./Views/Auth/SignIn"
+import Intro from "./Views/Intro"
+
+
 
 class App extends Component {
     constructor(props) {
@@ -14,9 +17,7 @@ class App extends Component {
     render() {
         return (
             <AppContainer>
-                <SignIn>
-
-                </SignIn>
+               <Intro />
             </AppContainer>
         );
     }
